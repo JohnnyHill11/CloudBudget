@@ -1,0 +1,142 @@
+.section_3{
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto; 
+  background: #fafafa;
+}
+.section_3_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section_3_title{
+  height: 55px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+}
+.features{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.box_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 33px;
+  padding-bottom: 25px;
+  width: 235px;
+  height: 198px;
+  background: #fff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: -93px;
+}
+.title_card{
+  width: 229px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: #101010;
+  margin-bottom: 20px;
+}
+.text_card{
+  width: 229px;
+  height: 57px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #101010;
+  margin-bottom: 5px;
+}
+.link_card{
+  width: 253px;
+  height: 18px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #ed4c5c;
+}
+.link_card:hover{
+  color: #4f16aa;
+}
+.link_card:focus{
+  color: #0f090e;
+}
+@media (min-width: 576px) {
+  .container{
+    max-width: 540px;
+  }
+  .section_3_title{
+    font-size: 30px;
+  }
+  .box_card{
+    width: 293px;
+  }
+}
+@media (min-width: 768px) {
+  .container{
+    max-width: 720px;
+  }
+  .section_3_title{
+    font-size: 36px;
+  }
+}
+@media (min-width: 992px) {
+  .container{
+    max-width: 960px;
+  }
+  .section_3_flex{
+    padding-top: 63px;
+    padding-bottom: 124px;
+  }
+  .features{
+    flex-direction: row;
+  }
+  .cards{
+    margin-bottom: 0;
+  }
+  .box_card{
+    width: 250px;
+  }
+  .title_card{
+    width: 180px;
+  }
+  .text_card{
+    width: 180px;
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1140px;
+  }
+  .section_3_title{
+    margin-bottom: 63px;
+  }
+  .box_card{
+    width: 293px;
+  }
+  .title_card{
+    width: 229px;
+  }
+  .text_card{
+    width: 229px;
+  }
+}
