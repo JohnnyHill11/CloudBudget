@@ -1,0 +1,26 @@
+@mixin media-breakpoint-up($key, $breakpoints: $grid-breakpoints) {
+  $breakpoint: map-get($breakpoints, $key);
+  @media screen and (min-width: $breakpoint) {
+    @content
+  }
+}
+
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  @include media-breakpoint-up (xs) {
+    max-width: map-get($contanier-width,'xs');
+  }
+  @include media-breakpoint-up (sm) {
+    max-width: map-get($contanier-width,'sm');
+  }
+  @include media-breakpoint-up (md) {
+    max-width: map-get($contanier-width,'md');
+  }
+  @include media-breakpoint-up (lg) {
+    max-width: map-get($contanier-width,'lg');
+  }
+} 

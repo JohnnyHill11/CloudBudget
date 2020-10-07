@@ -5,7 +5,7 @@
   font-style: normal;
   font-display: block;
 }
-.icon{
+.icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -28,7 +28,6 @@
 }
 .icon-logo:before {
   content: "\e90f";
-  margin-right: 7px;
 }
 .icon-pdf:before {
   content: "\e910";

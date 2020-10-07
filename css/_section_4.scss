@@ -1,0 +1,154 @@
+.section_4_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include media-breakpoint-up (xs) {
+    padding-top: 40px;
+  }
+  @include media-breakpoint-up (sm) {
+    padding-top: 63px;
+    padding-bottom: 104px;
+  }
+}
+.section_4_title {
+  height: 55px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  @include media-breakpoint-up (xs) {
+    font-size: 30px;
+  }
+  @include media-breakpoint-up (sm) {
+    font-size: 36px;
+  }
+  @include media-breakpoint-up (md) {
+    margin-bottom: 52px;
+  }
+}
+.technology {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  @include media-breakpoint-up (sm) {
+    flex-direction: row;
+  }
+}
+.group_technology {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 255px;
+  height: 226px;
+  @include media-breakpoint-up (xs) {
+    width: 170px;
+    margin-bottom: 0;
+  }
+  @include media-breakpoint-up (sm) {
+    width: 220px;
+  }
+  @include media-breakpoint-up (lg) {
+    width: 255px;
+  }
+}
+.frame_1 {
+  color: $primary-color;
+  font-size: 80px;
+  position: absolute;
+  top: 59px;
+  right: 88px;
+  @include media-breakpoint-up (xs) {
+    right: 46px;
+  }
+  @include media-breakpoint-up (md) {
+    right: 71px;
+  }
+  @include media-breakpoint-up (lg) {
+    right: 90px;
+  }
+}
+.frame_2 {
+  color: $primary-color;
+  font-size: 66px;
+  position: absolute;
+  top: 65px;
+  right: 95px;
+  @include media-breakpoint-up (xs) {
+    right: 54px;
+  }
+  @include media-breakpoint-up (md) {
+    right: 78px;
+  }
+  @include media-breakpoint-up (lg) {
+    right: 96px;
+  }
+}
+.frame_3 {
+  color: $primary-color;
+  font-size: 70px;
+  position: absolute;
+  top: 61px;
+  right: 93px;
+  @include media-breakpoint-up (xs) {
+    right: 50px;
+  }
+  @include media-breakpoint-up (md) {
+    right: 76px;
+  }
+  @include media-breakpoint-up (lg) {
+    right: 92px;
+  }
+}
+.frame_4 {
+  color: $primary-color;
+  font-size: 54px;
+  position: absolute;
+  top: 71px;
+  right: 101px;
+  @include media-breakpoint-up (xs) {
+    right: 58px;
+  }
+  @include media-breakpoint-up (md) {
+    right: 84px;
+  }
+  @include media-breakpoint-up (lg) {
+    right: 100px;
+  }
+}
+.number {
+  width: 117px;
+  height: 120px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+  text-align: center;
+  color: rgba(16, 16, 16, 0.08);
+  margin-bottom: 20px;  
+}
+.title_technology {
+  height: 22px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: #101010;
+  margin-bottom: 10px;
+}
+.text_technology {
+  width: 191px;
+  height: 51px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  color: #101010;
+  @include media-breakpoint-up (sm) {
+    width: 160px;
+  }
+  @include media-breakpoint-up (md) {
+    width: 191px;
+  }
+}

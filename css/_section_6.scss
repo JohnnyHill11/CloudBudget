@@ -1,0 +1,126 @@
+.section_6_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @include media-breakpoint-up (md) {
+    flex-direction: row;
+    padding-top: 117px;
+    padding-bottom: 78px;
+  }
+}
+.section_6_title {
+  text-align: center;
+  font-size: 24px;
+  @include media-breakpoint-up (xs) {
+    font-size: 30px;
+  }
+  @include media-breakpoint-up (sm) {
+    font-size: 36px; 
+  }
+  @include media-breakpoint-up (md) {
+    text-align: start;
+    height: 107px;
+  }
+}
+.text_section_6 {
+  margin: 24px 0 40px 0;
+  text-align: justify;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+  @include media-breakpoint-up (md) {
+    height: 64px;
+    margin: 0;
+  }
+  @include media-breakpoint-up (lg) {
+    width: 445px;
+  }
+}
+.left_text_section_6 {
+  @include media-breakpoint-up (md) {
+    width: 445px;
+    height: 160px;
+    margin-right: 50px;
+    margin-bottom: 145px;
+  }
+  @include media-breakpoint-up (lg) {
+    margin-right: 125px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include media-breakpoint-up (md) {
+    align-items: start;
+  }
+}
+.input_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include media-breakpoint-up (sm) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 540px;
+  }
+}
+.input {
+  width: 255px;
+  height: 60px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  color: rgba(19, 39, 67, 0.5);
+  border: 1px solid #333;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  padding-left: 30px;
+  @include media-breakpoint-up (sm) {
+    margin-bottom: 0; 
+  }
+  &:focus {
+    border: 5px solid #ed4c5c;
+  }
+}
+.button_section_6 {
+  width: 160px;
+  height: 50px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: $secondary-color;
+  background: $primary-color;
+  border: 1.5px solid $primary-color;
+  border-radius: 6px;
+  @include media-breakpoint-up (sm) {
+    margin-top: 27px;
+  }
+  &:hover {
+    color: #440d8b;
+    background: $secondary-color;
+  }
+  &:focus {
+    color: #85ca16;
+    background: #e9d30f;
+  }
+  &:active {
+    color: #2f92e4;
+    background: #7a716f;
+  }
+}
+.input_big {
+  @include media-breakpoint-up (sm) {
+    width: 540px;
+    height: 60px;
+    margin-top: 24px;
+  }
+}
